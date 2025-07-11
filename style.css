@@ -16,7 +16,7 @@
 }
 /* header style */
 .header{
-    background-image: url('../image/Hero-bg.png');
+    background-image: url('Assets/Hero-bg.png');
     background-repeat: no-repeat;
     background-position: center;
 }
