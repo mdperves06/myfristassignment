@@ -1,4 +1,5 @@
-.font {
+/*header */
+.fontbody {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -9,66 +10,74 @@
     padding: 0;
     box-sizing: border-box;
 }
-.font{
+.fontbody{
+  background-image:linear-gradient(#eef2f3,#d7ecf5);
     min-height: 100vh;
-    background-image:linear-gradient(#eef2f3,#d7ecf5);
+    
 }
 /* header bg image */
 .header{
     background-image: url('Assets/Hero-bg.png');
 }
 /* navbar style */
-.navbar{
+.navigationbar{
     width: 80%;
+     display: flex;
     margin: 0 auto 0 auto;
+     justify-content: space-between;
     padding: 50px 0px;
-    display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
+/*logo write*/
 .logo h1{
     color: #4E47FF;
-    font-size: 100px;
-    font-weight: 900;
+    font-weight: 800;
+    font-size: 40px;
+    
 }
+/*button*/
 .btn{
+  transition: background 0.3s ease;
     color:#FFFFFF;
-    background-color: #4E47FF;
-    font-size: 16px;
     font-weight: bold;
-    padding: 12px 36px;
-    border: none;
+    background-color: #4E47FF;
+     border: none;
     border-radius: 10px;
-    transition: background 0.3s ease;
+    font-size: 16px;
+    padding: 12px 36px;
 }
+
+/*button hover*/
 .btn:hover{
     background-color: #110cb1;
 }
 
 /* banner style */
 
-.banner{
-    width: 62%;
-    display: flex;
-    margin: 100px auto 0 auto;
+.bannermain{
+  display: flex;
+  margin: 100px auto 0 auto;
+
+    width: 60%;
 }
-.banner-tytle h1{
-    color: #252432;
-    font-size: 60px;
+.bannerti h1{
+  font-size: 60px;
     text-align: center;
+    color: #252432;
+    
 }
-.banner-btn{
+.bannerbutton{
+  background-color: #4E47FF;
     color:#FFFFFF;
-    background-color: #4E47FF;
-    font-size: 16px;
-    font-weight: bold;
-    padding: 12px 46px;
     border: none;
     border-radius: 10px;
     display: flex;
-    margin: 40px auto 100px auto;
-    transition: background 0.3s ease;
+      margin: 40px auto 100px auto;
+      padding: 13px 47px;
+    font-size: 15px;
+    font-weight: bold;
+    transition: background 0.4s ease;
 }
 .banner-btn:hover{
      background-color: #110cb1;
@@ -80,25 +89,30 @@
 /* action-part style */
 .action{
     /* background-color: aqua; */
-    width: 80%;
+    width: 75%;
+    margin: 0 auto 0 auto;
     display: flex;
     justify-content: space-between;
-    margin: 0 auto 0 auto;
 }
-.action-container{
-    width: 45.5%;
-    display: flex;
-    justify-content: center;
+.action-contain{
+  justify-content: center;
     align-items: center;
+    width: 30%;
+    display: flex;
 }
 .action-text h2{
     color: #252432;
-    font-size: 42px;
-    margin-bottom: 20px;
+    font-size: 34px;
+    margin-bottom: 14px;
 }
 .action-text p{
     color: #252432;
-    font-size: 22px;
+    font-size: 20px;
+    font-size: 14px;
+  color: #8987A1;
+  max-width: 600px;
+  margin: 0 auto 37px;
+  line-height: 1.6;
     margin-bottom: 18px;
 }
 .action-btn{
@@ -116,8 +130,9 @@
 }
 
 .action-image img{
-    border-radius: 48px;
+    border-radius: 40px;
 }
+ /*productive section*/
 .productive{
     background-color:#cccbf8;
     border-radius: 24px;
@@ -128,7 +143,7 @@
     margin: 100px auto 100px auto;
     padding: 50px 80px;
 }
-.productive-title h1{
+.productivetitle h1{
     color: #252432;
     font-size: 38px;
     margin: 30px;
@@ -151,7 +166,7 @@
     text-align: center;
     margin-bottom: 40px;
 }
-/* review section style */
+/* review style */
 
 .review-section {
   text-align: center;
@@ -177,10 +192,10 @@
   border-radius: 12px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
   padding: 20px;
-  width: 100%;
   max-width: 320px;
   text-align: left;
-  transition: transform 0.3s ease;
+  transition: transform 0.2s ease;
+   width: 100%;
 }
 
 .review-card:hover {
@@ -195,7 +210,7 @@
   width: 18px;
   height: 18px;
   margin-right: 2px;
-  vertical-align: middle;
+  vertical-align: super;
 }
 
 .review-card h3 {
@@ -236,41 +251,41 @@
 }
 
 
-/* focus section style */
+/* focused style */
 .focus-container{
     background-color: #FFFFFF;
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+     flex-direction: column;
+     justify-content: center;
     align-items: center;
-    margin: 100px auto 100px auto;
-    border-radius: 14px;
-    padding: 50px;
+    width: 83%;
+    display: flex;
+     border-radius: 16px;
+    padding: 53px;
+ margin: 102px auto 102px auto;
 }
 .focus-heading h1{
     color: #000000;
-    font-size: 40px;
-    text-align: center;
-    margin-bottom: 20px;
+     text-align: center;
+    font-size: 41px;
+    margin-bottom: 21px;
 }
 .focus-heading p{
     color: #333;
-    font-size: 16px;
-    text-align: center;
-    margin-bottom: 20px;
+    font-size: 13px;
+
+    margin-bottom: 18px;
 }
 .focus-btn{
     color:#FFFFFF;
     background-color: #4E47FF;
-    font-size: 16px;
-    font-weight: bold;
-    padding: 12px 46px;
     border: none;
-    border-radius: 10px;
     display: flex;
-    margin: 0 auto 20px auto;
-    transition: background 0.3s ease;
+    border-radius: 10px;
+    font-size: 16px;
+     font-weight: bold;
+     margin: 0 auto 20px auto;
+    padding: 12px 46px;
+    transition: background 0.2s ease;
 }
 .focus-btn:hover{
     background-color: #110cb1;
@@ -286,12 +301,12 @@
 
 /*contact-section style */
 .contact-box{
-    max-width: 80%;
+  margin: 0 auto 0 auto;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin: 0 auto 0 auto;
-    padding: 70px 0;
+    max-width: 80%;
+    padding: 71px 0;
+    justify-content: space-between;
 }
 .contact-title{
     max-width: 47%;
