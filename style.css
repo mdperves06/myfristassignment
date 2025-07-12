@@ -315,7 +315,7 @@
     font-size: 70px;
 }
 .contact-form label{
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
     margin-bottom: 15px;
 }
@@ -332,15 +332,14 @@
   margin: 10px 0;
 }
 .contact-btn{
-    width: 350px;
+  border: none;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    color: #fff;
     font-size: 16px;
     font-weight: bold;
-    color: #fff;
-    background-color: #4E47FF;
     padding: 12px;
-    border: none;
-    border-radius: 10px;
-    transition: background 0.3s ease;
+    transition: background 0.2s ease;
 }
 .contact-btn:hover{
     background-color: #110cb1;
