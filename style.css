@@ -353,9 +353,10 @@
 }
 
 .logo {
-  font-size: 64px;
+  font-size: 70px;
+  font-weight: bolder;
   color: #4f46e5; 
-  margin-bottom: 20px;
+  margin-bottom: 35px;
 }
 
 .description {
